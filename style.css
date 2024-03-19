@@ -1,0 +1,80 @@
+@media screen and (max-width: 768px) {
+    .center {
+      height: auto; /* Reset height for smaller screens */
+    }
+  }
+  .logo-img
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 300px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+  }
+  .login-container {
+    
+    text-align: center;
+  }
+
+  .login-container h2 {
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .input-group input[type="text"],
+  .input-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .checkbox {
+    margin-bottom: 20px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+
+  .checkbox label {
+    font-weight: normal;
+  }
+
+  .submit-btn {
+    background-color: #c25f5f;
+    color: #fff;
+    border: none;
+    padding: 20px 240px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 15px;
+  }
+
+  .submit-btn:hover {
+    background-color: #bd7474;
+  }
+
+.two
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-inline:30%;
+    border-radius: 15px;
+}

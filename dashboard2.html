@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Dashboard</h1>
+        <div class="charts">
+            <div class="chart" id="revenueByJobType"></div>
+            <div class="chart" id="revenueByJobLocation"></div>
+        </div>
+        <div class="components">
+            <div class="component">
+                <h2>Total Revenue</h2>
+                <p id="totalRevenue">$0</p>
+            </div>
+            <div class="component">
+                <h2>Total Jobs</h2>
+                <p id="totalJobs">0</p>
+            </div>
+            <!-- Add more components as needed -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
